@@ -23,5 +23,44 @@ nav {
 }
 
 .bar {
+    display: inline-block ;
+    padding: 15px;
+    font-weight: bold;
+}
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    margin-left: -150px;
+}
+
+a {
+    margin-top 3px;
+    color: #f6f6f6;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover {
+    background-color: #6E49EA;
+}
+
+.hero {
+    text-align: center;
+    width: 45%;
+    margin: 50px auto;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h5 {
+    line-height: 25px;
 }
